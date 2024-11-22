@@ -7,7 +7,7 @@ $(document).ready(function() {
     $('.carousel').slick({
 
         //slidesToShow: numero de cards exibidos ao mesmo tempo no carrossel
-        slidesToShow: 5, // exibe 3 cards ao mesmo tempo
+        slidesToShow: 6, // exibe 3 cards ao mesmo tempo
 
         //slidesToScroll: define quantos cards serao deslizados ao mover o carrossel
         slidesToScroll: 1, // Move 1 car por vez ao deslizar

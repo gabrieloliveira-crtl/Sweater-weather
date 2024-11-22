@@ -45,8 +45,11 @@ html{
 
 /* sessao 2 */
 .card{
-    background-color: black;
-    padding: 20px;
+    background-image: url(img/Now-Foods-Magnesium-Flakes-Bath-.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
     text-align: center;
     border-radius: 8px;
     margin: 10px;
@@ -63,12 +66,141 @@ html{
         color: black;
     }
     .section2{
-        padding: min(13vw,30rem);
+        padding: min(10vw,30rem);
        background-image: url(img/Design\ sem\ nome\ \(4\).jpg);
-       background-position: center;
+       background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-       display: flex;
+    display: flex;
        width: 100%;
+       gap: 40px;
     }
-     
+     .div-pai{
+        display: flex;
+        gap: 30px;
+     }
+     .imagem2{
+        width: 250px;
+        height: 220px;
+        padding: 20px;
+        background-color: black;
+        align-items: center;
+     }
+     .imagem2 img{
+        width: 200px;
+     }
+     /* fim da sessao 2 */
+
+     /* inicio da sessao 3 */
+
+     .section3{
+        padding: min(10vw,30rem);
+        height: 100vh;
+       width: 100%;
+       display: flex;
+    }
+    .section3 p{
+        font-size: 10px;
+    }
+    .section3 div{
+        width: 700px;
+        height: 200px;
+    }
+    .div2 img{
+        width: 700px;
+    }
+    .section3 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    /* section 4 */
+    .section4{
+        padding: min(8 vw,30rem);
+        height: 100vh;
+       width: 100%;
+       display: flex;
+    }
+    .section4 p{
+        font-size: 10px;
+    }
+    .section4 div{
+        width: 700px;
+        height: 200px;
+    }
+    .div3 img{
+        width: 700px;
+    }
+    .section4 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10px;
+    }
+/* Fim da sessao 4 */
+
+/* Começo da sessao 5 */
+.section5{
+    padding: min(8vw, 30rem);
+    display: flex;
+}
+.botao{
+    background-color: black;
+    color: white;
+    padding: 9px;
+    width: 150px;
+   height: 35px;
+   align-items: center;
+   margin-top: 50px;
+   font-size: 12px;
+}
+.formulario input{
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+/* fim da sessao 5 */
+
+/* inicio do roda pe */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+/* fim do roda pe */
+
+
+
+@media(max-width: 830px){
+    .section1{
+        padding: min(0.1vw, 10rem);
+
+    }
+    .section1 img{
+        width: 150px;
+    }
+    .div-pai{
+       flex-wrap: wrap;
+    }
+    .section3{
+        padding: 10px;
+        flex-direction: column;
+        height: 30vh;
+    }
+    .section3 img{
+        width: 360px;
+    }
+    .section4{
+        padding: 30px;
+        flex-direction: column-reverse;
+    }
+    .section4 img{
+        width: 360px;
+    }
+    .section5{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
